@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    height: 100vh;
+    background-image: url(/resources/image/h3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*************************************************NAV BAR**************************************/
+
+#logo { 
+    float: left;
+    width: 250px;
+    height: auto;
+    border-radius: 300px;
+}
+
+#navBar {
+    float: right;
+}
+
+#navBar li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+}
+
+#navBar li a {
+    color: black;
+    text-decoration: none;
+    text-decoration: black;
+}
+
+#navBar li a:hover {
+    border-bottom: 2px solid blueviolet;
+    color: blueviolet
+}
+
+
+/***********************************Welcome***********************************/
+
+#welcome {
+    text-align: center;
+    margin-top: 120px;
+    padding: 20px;
+    font-size: 80px;
+    font-weight: 300;
+    color: rgb(1, 1, 54);
+    text-shadow: rgb(116, 116, 240) 2px 2px;
+}
+
+
+/******************************************************************About************************/
+
+.about {
+    background-image: radial-gradient( rgb(219, 192, 219), rgb(142, 142, 201), rgb(247, 212, 212));
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 70vh;
+}
+
+#h1 {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+#abt {
+    margin: 0 30px;
+    text-align: center;
+    padding: 20px;
+    word-spacing: 2px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+
+/****************************************************footer*************************************************************************************/
+
+footer {
+    background-image: url(/resources/image/foooter.jpg);
+    background-size: cover;
+    height: 65vh;
+}
+
+.abc {
+    margin: 50px;
+}
+
+.abc a {
+    text-decoration: none;
+}
+
+.abc a:hover {
+    color: rgb(2, 2, 77)
+}
+
+.box {
+    opacity: 0.5;
+    margin: 20px;
+    margin-left: 50px;
+    height: 30px;
+    padding: 8px;
+    width: auto;
+}
+
+#sendit {
+    margin: 10% 0 0 35%;
+}
+
+
+/******************************copyright******************************/
+
+#cpy {
+    margin: 10px 50px 40px;
+    color: blue;
+}
+
+#cpyrht {
+    margin: 0px 60px 10px;
+    color: rgb(4, 4, 158);
+}

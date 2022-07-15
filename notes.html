@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Engineer's Space</title>
+    <link href="/vender/css/grid.css" rel='stylesheet' type='text/css'>
+    <link href="/vender/css/normalize.css" rel='stylesheet' type='text/css'>
+    <link href="/resources/css/notes.css" rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <!-------------------------------Nav Bar----------------------->
+        <nav>
+            <div class="row">
+                <img src="/resources/image/logo.png" id="logo">
+                <ul id="navBar">
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/notes.html">Notes</a></li>
+                    <li><a href="/home.html#about">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--------------------------------------Notes Section-------------->
+        <p> Note : Enter the correct data for better result </p>
+        <div class="row">
+            <form>
+                <div class="carton">
+                    <div>
+                        <div class="col span-1-of-2">
+                            <label>Course</label></div>
+                        <div class="col sapn-1-of-2">
+                            <select name="Course" placeholder="Course" style="width: 180px;">
+                    <option value="B.tech ">B.tech</option>
+                    <option value="M.tech ">M.tech</option>
+                         </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col span-1-of-2">
+                            <label>Branch</label></div>
+                        <div class="col span-1-of2">
+                            <select name="Branch" placeholder="Branch" required style="width: 180px;">
+                <option value="CSE">CSE</option>
+                <option value="ME">ME</option>
+                <option value="CE">CE</option>
+                <option value="EE">EE</option>
+        </select></div>
+                    </div>
+                    <div>
+                        <div class="col span-1-of-2">
+                            <label>Year</label></div>
+                        <div class="col span-1-of-2">
+                            <select name="Year" placeholder="Year" style="width: 180px;">
+                <option value="First">First</option>
+                <option value="Second">Second</option>
+                <option value="Third">Third</option>
+                <option value="Fourth">Fourth</option>
+            </select></div>
+                    </div>
+                    <div>
+                        <div class="col span-1-of-2">
+                            <label>Semester</label></div>
+                        <div class="col span-1-of-2">
+                            <select name="Semester" placeholder="Semester" style="width: 180px;">
+                <option value="First">First</option>
+                <option value="Second">Second</option>
+                <option value="Third">Third</option>
+                <option value="Fourth">Fourth</option>
+                <option value="Fifth">Fifth</option>
+                <option value="Sixth">Sixth</option>
+                <option value="Seventh">Seventh</option>
+                <option value="Eighth">Eighth</option>
+            </select></div>
+                    </div>
+                    <div>
+                        <div class="col span-1-of-2">
+                            <label>Subject</label></div>
+                        <div class="col span-1-of-2">
+                            <input type="text" placeholder="Subject" required style="width: 180px;">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div>
+            <p id="sendit"><input type="submit" value="Search" style="width: 60px; height: auto;"></p>
+        </div>
+    </header>
+</body>
+
+</html>

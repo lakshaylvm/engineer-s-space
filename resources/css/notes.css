@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/resources/image/3540021.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+
+/*****************************************Nav Bar************************/
+
+#logo {
+    float: left;
+    width: 120px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 300px;
+}
+
+#navBar {
+    margin-right: 50px;
+    float: right;
+}
+
+#navBar li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0 0 10px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+#navBar li a {
+    color: wheat;
+    text-decoration: none;
+    text-decoration: black;
+}
+
+#navBar li a:hover {
+    border-bottom: 1px solid;
+}
+
+
+/**********************************************************Notes Section********************************/
+
+p {
+    color: whitesmoke;
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+form {
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+label {
+    color: whitesmoke;
+}
+
+#sendit {
+    margin: 30px 50% 0;
+}
